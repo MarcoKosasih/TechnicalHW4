@@ -8,14 +8,31 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        .navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <nav class="navbar navbar-expand-lg bg-light">
-                <h1 class="align-content-center bg-danger">Master Page</h1>
-                <a class="navbar-brand" href="Default.aspx">Default</a>
-                <a class="navbar-brand" href="Page2.aspx">Page 2</a>
+                <div class="container-fluid">
+                    <img src="images/PetMeds-Cares-Logo-2021.jpg" alt="Bootstrap" width="100" height="100" class="border-8" />
+                    <a class="navbar-brand text-success" href="#">Main Page</a>
+
+                    <ul class="navbar-nav navbar-center">
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="Default.aspx">Default</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="Page2.aspx">Page 2</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
