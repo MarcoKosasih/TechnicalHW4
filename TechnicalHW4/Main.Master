@@ -6,15 +6,20 @@
 <head runat="server">
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
         .navbar-nav.navbar-center {
             position: absolute;
-            left: 50%;
-            transform: translatex(-50%);
+            left: 43%;
         }
         a:hover{color:crimson}
+        li>a{
+            font-family:'Comic Sans MS';
+            font-style:italic;
+            font-weight:bolder;
+        }
     </style>
 </head>
 <body>
@@ -24,12 +29,13 @@
                 <div class="container-fluid">
                     <img src="images/PetMeds-Cares-Logo-2021.jpg" alt="Bootstrap" width="100" height="100" class="border-8" />
 
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav navbar-center">
                         <li class="nav-item">
                             <a class="navbar-brand" href="Default.aspx">Default</a>
                         </li>
                         <li class="nav-item">
-                            <a class="navbar-brand" href="Search.aspx">Page 2</a>
+                            <a class="navbar-brand" href="Search.aspx">Search</a>
+                            <input class="form-search border-end-0 border rounded-pill" type="search" value="" id="example-search-input">
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
