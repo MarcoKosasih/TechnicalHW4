@@ -48,6 +48,9 @@
                         <li>
                             <a class="navbar-brand" href="Cart.aspx">Cart</a>
                         </li>
+                        <li>
+                            <a class="navbar-brand" href="Login.aspx">Login</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
