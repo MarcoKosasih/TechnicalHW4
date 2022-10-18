@@ -16,6 +16,11 @@
             font-style:italic;
             color:white;
         }
+        #loginForm{
+            margin-top:5%;
+            margin-left:35%;
+            margin-right:35%;
+        }
     </style>
 </head>
 <body>
@@ -43,6 +48,7 @@
                     <input type="password" class="form-control" id="inputPassword"/>
                 </div>
             </div>
+            <button type="button" class="btn btn-outline-danger">Login</button>
         </div>
     </form>
 </body>
