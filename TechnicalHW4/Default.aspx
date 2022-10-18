@@ -3,8 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="card-group">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card bg-light">
+            <img src="images/apoquel.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="Supplement.aspx">Apoquel</a>
                 <p class="card-text">Apoquel is used to treat and control itching and inflammation in dogs resulting from a 
@@ -13,8 +13,8 @@
                 <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
         </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card bg-light">
+            <img src="images/apoquel.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="Supplement.aspx">Apoquel</a>
                 <p class="card-text">Apoquel is used to treat and control itching and inflammation in dogs resulting from a 
@@ -23,8 +23,8 @@
                 <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
         </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card bg-light">
+            <img src="images/apoquel.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="Supplement.aspx">Apoquel</a>
                 <p class="card-text">Apoquel is used to treat and control itching and inflammation in dogs resulting from a 
