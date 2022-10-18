@@ -23,6 +23,9 @@
         .card-img-top{
             width:33%;
         }
+        #SupplementImage{
+            width:50%;
+        }
     </style>
 </head>
 <body>
