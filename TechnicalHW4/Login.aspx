@@ -39,7 +39,7 @@
 
                 </div>
             </nav>
-        <div id="loginForm" class="mb-auto">
+        <div id="loginForm" class="mb-auto mh-100">
             <div class="mb-3 row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">

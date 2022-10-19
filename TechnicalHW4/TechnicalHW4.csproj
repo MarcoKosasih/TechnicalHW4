@@ -86,6 +86,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="images\apoquel.jpg" />
+    <Content Include="images\dogpaw.jpg" />
     <Content Include="images\PetMeds-Cares-Logo-2021.jpg" />
     <Content Include="images\puppy1.png" />
     <Content Include="Login.aspx" />

@@ -24,10 +24,16 @@
             width:33%;
         }
         #SupplementImage{
-            width:50%;
+            width:100%;
+        }
+        #SearchForm{
+            margin-top:5%;
+            margin-left:35%;
+            margin-right:35%;
         }
     </style>
 </head>
+
 <body>
     <form id="form1" runat="server">
         <div>
@@ -60,3 +66,4 @@
     </form>
 </body>
 </html>
+
