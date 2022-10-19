@@ -21,9 +21,13 @@
             margin-left:35%;
             margin-right:35%;
         }
+        .mb-5{
+            float:right;
+        }
     </style>
+
 </head>
-<body>
+<body class="bg-white">
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-lg bg-primary">
                 <div class="container-fluid">
@@ -35,7 +39,7 @@
 
                 </div>
             </nav>
-        <div id="loginForm">
+        <div id="loginForm" class="mb-auto">
             <div class="mb-3 row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
@@ -48,7 +52,11 @@
                     <input type="password" class="form-control" id="inputPassword"/>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-danger">Login</button>
+            <button type="button" class="btn btn-outline-danger" onclick="location.href='Default.aspx'">Login</button>
+
+            <div class="mb-5 mx-auto">
+                <img src="images/puppy1.png" width="500" height="500"/>
+            </div>
         </div>
     </form>
 </body>

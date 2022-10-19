@@ -7604,6 +7604,7 @@ textarea.form-control-lg {
 
 .m-auto {
   margin: auto !important;
+    width: 563px;
 }
 
 .mx-0 {
