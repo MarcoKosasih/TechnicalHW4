@@ -31,6 +31,16 @@
             margin-left:35%;
             margin-right:35%;
         }
+        #allItems{
+            width:65%;
+            float:left;
+        }
+        #totalCost{
+            float:left;
+            width:35%;
+            /*margin-left:65%;*/
+            /*margin-right:3%;*/
+        }
     </style>
 </head>
 
